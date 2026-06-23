@@ -1,0 +1,59 @@
+# Novel Agent Infrastructure Configuration Example
+# Copy this file to config.yaml and modify as needed
+
+# LLM Configuration
+llm:
+  provider: openai  # openai, anthropic, local
+  model: gpt-4
+  api_key: ${OPENAI_API_KEY}
+  temperature: 0.7
+  max_tokens: 4096
+  timeout: 60
+
+# Memory Engine Configuration
+memory:
+  engine_type: vector  # vector, graph, hybrid
+  vector_db: chroma  # chroma, qdrant, pinecone
+  embedding_model: all-MiniLM-L6-v2
+  collection_name: novel_memory
+  persist_directory: ./data/memory
+  similarity_threshold: 0.7
+
+# Platform Configuration
+platform:
+  default_platform: royalroad
+  api_keys:
+    tomato: ${TOMATO_API_KEY}
+    qidian: ${QIDIAN_API_KEY}
+    royalroad: ${ROYALROAD_API_KEY}
+  rate_limits:
+    tomato: 100
+    qidian: 100
+    royalroad: 100
+
+# Agent System Configuration
+agent:
+  default_model: gpt-4
+  max_iterations: 10
+  timeout: 300
+  enable_collaboration: true
+  enable_memory: true
+
+# MCP Server Configuration
+server:
+  host: 0.0.0.0
+  port: 8000
+  debug: false
+  cors_origins:
+    - "*"
+
+# Project Settings
+project_name: Novel Agent Infrastructure
+version: 0.1.0
+debug: false
+log_level: INFO
+
+# Paths
+data_dir: ./data
+output_dir: ./output
+temp_dir: ./temp
