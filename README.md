@@ -281,9 +281,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **GitHub**: [novel-agent/novel-agent-infrastructure](https://github.com/novel-agent/novel-agent-infrastructure)
-- **Email**: team@novel-agent.dev
-- **Discord**: [Join our community](https://discord.gg/novel-agent)
+- **GitHub**: CCSFU-lgf
+- **Email**: lgf15568701008@gmail.com
+- **Discord**: 
 
 ---
 
