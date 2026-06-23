@@ -281,9 +281,9 @@ make type-check
 
 ## 📞 联系方式
 
-- **GitHub**: [novel-agent/novel-agent-infrastructure](https://github.com/novel-agent/novel-agent-infrastructure)
-- **Email**: team@novel-agent.dev
-- **Discord**: [加入我们的社区](https://discord.gg/novel-agent)
+- **GitHub**: CCSFU-lgf
+- **Email**: lgf15568701008@gmail.com
+- **Discord**: [欢迎大家使用有不足的地方随时指正]
 
 ---
 
